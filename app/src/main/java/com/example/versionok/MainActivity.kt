@@ -14,17 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        signin.setOnClickListener {
-            val i = Intent(this, Signin::class.java)
-            startActivity(i)
-        }
-        signup.setOnClickListener {
-            val i = Intent(this, Signup::class.java)
-            startActivity(i)
-        }
-        profile.setOnClickListener {
-            val i = Intent(this, Profile::class.java)
-            startActivity(i)
-        }
+
+
     }
 }

@@ -1711,11 +1711,12 @@
     <style name="Activity11FabStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginRight">16dp</item>
+
         <item name="android:src">@drawable/ic_add_floating</item>
         <item name="borderWidth">0dp</item>
-        <item name="elevation">4dp</item>
+        <item name="elevation">10dp</item>
+           <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
         <item name="pressedTranslationZ">12dp</item>
         <item name="rippleColor">@android:color/white</item>
     </style>

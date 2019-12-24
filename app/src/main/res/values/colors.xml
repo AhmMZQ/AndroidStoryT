@@ -3,6 +3,7 @@
     <color name="colorPrimary">#36394c</color>
     <color name="colorPrimaryDark">#36394c</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bgBottomNavigation">#fe485a</color>
 
     <color name="button_orange">#fe5824</color>
     <color name="button_white">@android:color/white</color>

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".Walkthrough">
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
         android:layout_marginBottom="62dp"
         android:layout_width="match_parent"
@@ -65,8 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_weight="1"
-            android:onClick="onClick"
-            android:text="SIGN UP"/>
+            android:text="S'enregistrer"/>
 
         <Button
             android:id="@+id/btnSignIn"
@@ -76,9 +75,8 @@
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
             android:layout_weight="1"
-            android:onClick="onClick"
             android:textColor="@android:color/white"
-            android:text="SIGN IN"/>
+            android:text="Se connecter"/>
 
     </LinearLayout>
 

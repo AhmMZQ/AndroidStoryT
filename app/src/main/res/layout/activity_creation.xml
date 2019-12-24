@@ -12,28 +12,30 @@
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="16dp">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycleViewCreation"
             style="@style/Activity6ScrollbarStyle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="700dp">
 
         </androidx.recyclerview.widget.RecyclerView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/FloatingButtonAddCre"
+            style="@style/Activity11FabStyle"
+            android:backgroundTint="@color/activity11colorPrimary"
+            android:padding="10dp"
+            android:layout_gravity="bottom|end"
+            tools:ignore="MissingConstraints" />
 
+    </androidx.cardview.widget.CardView>
 
     </ScrollView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/FloatingButtonAddcration"
-        style="@style/Activity11FabStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/activity11colorPrimary"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
+
 
 
 

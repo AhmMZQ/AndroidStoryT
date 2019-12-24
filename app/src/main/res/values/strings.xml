@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">StoryT</string>
 
+    <string name="title_home">Accueil</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_add">Ajouter</string>
+    <string name="title_library">Bibliothèque</string>
+    <string name="title_people">Communoté</string>
+
     <!-- AdMob ad unit IDs -->
     <string name="banner_home_footer">ca-app-pub-7287003020531388/4190042558</string>
 
