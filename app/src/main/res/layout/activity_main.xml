@@ -103,18 +103,11 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="55dp"
-            android:background="@drawable/background">
+            android:background="@drawable/background"
+            android:id="@+id/frame_container"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-            <com.lorentzos.flingswipe.SwipeFlingAdapterView
-                android:id="@+id/frame"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/background"
-                android:layout_gravity="center"
-                app:rotation_degrees="15.5" >
 
-            </com.lorentzos.flingswipe.SwipeFlingAdapterView>
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/navigation"
